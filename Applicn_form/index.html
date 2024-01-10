@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Application Form</h1>
+    <form action="">
+        <label for="name">First Name :</label>
+        <input type="text">
+        &nbsp;
+        <label for="name">Last Name :</label>
+        <input type="text">
+        <br><br>
+        <label for="dateofbirth">Date of Birth :</label>
+        <input type="date">
+        &nbsp;
+        <label for="Age">Age :</label>
+        <input type="number" style="width:70px;">
+        <br><br>
+        <label for="Gender">Gender :</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="_">Attack Helicopter</option>
+        </select>
+        &nbsp;
+        <label for="email">Email ID :</label>
+        <input type="email">
+        <br><br>
+        <label for="posi">Positions Available :</label>
+        <input type="radio" name = "positions">
+        <label for="posi">Junior Developer</label>
+        <input type="radio" name = "positions">
+        <label for="posi">Mid-Level Developer</label>
+        <input type="radio" name = "positions">
+        <label for="posi">Senior Developer</label>
+        <br><br>
+        <label for="lang">Programming Languages :</label>
+        <input type="checkbox">
+        <label for="lang">Java</label>
+        <input type="checkbox">
+        <label for="lang">Python</label>
+        <input type="checkbox">
+        <label for="lang">Javascript</label>
+        <br><br>
+        <label for="pass">Password :</label>
+        <input type="password">
+        &nbsp;
+        <label for="conf_pass">Confirm Password :</label>
+        <input type="password">
+        <br><br>
+        <input type="button" value="Submit" onclick = "msg()">
+        &nbsp;
+        <input type="button" value = "Reset" onclick = "reset()">
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>

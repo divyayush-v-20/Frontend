@@ -1,0 +1,66 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:black;
+    color:black;
+    font-weight:bold;
+}
+.heading{
+    background-color: white;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border: 1px solid black;
+    
+}
+.new{
+    background-color:white;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border: 1px solid black;
+}
+.dsoops{
+    background-color:red;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border: 1px solid black;
+}
+.oose{
+    background-color:green;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border: 1px solid black;
+}
+.aiml{
+    background-color:blue;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border: 1px solid black;
+}
+.fee{
+    background-color:yellow;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border: 1px solid black;
+}
+.coa{
+    background-color:cyan;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border: 1px solid black;
+}
+table{
+    height:700px;
+}
